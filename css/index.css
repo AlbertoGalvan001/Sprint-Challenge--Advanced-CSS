@@ -263,6 +263,8 @@ footer {
 }
 .home .visit-planets {
   padding: 15px;
+  padding-bottom: 5%;
+  border-bottom: 1px solid #dee2e6;
 }
 .home .visit-planets h3 {
   margin-top: 11px;
@@ -274,12 +276,12 @@ footer {
   .home .visit-planets {
     align-items: center;
     width: 100%;
-    border-bottom: 1px solid #dee2e6;
+    /*border-bottom: 1px solid @main-border-color;*/
   }
 }
 .home .walk {
   margin-top: 60px;
-  border-top: 1px solid #dee2e6;
+  /*border-top: 1px solid @main-border-color;*/
   padding: 50px 60px;
   display: flex;
   justify-content: center;
